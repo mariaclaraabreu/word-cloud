@@ -3,27 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/favicon.png" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
   
   <link href="./style.css" rel="stylesheet">
-  <link href="./medias.css" rel="stylesheet">
+  
   <title>Nuvens de palavras</title>
 </head>
 
-<style>
-    @media (max-width: 400px) 
-{
-  .styleword5
-   {
-    font-size: 14px;
-    background-color: coral;
-   }
-}
-
-
-
-</style>
 <body>
 
 
@@ -50,16 +38,41 @@
             <div class="cloud-item mx-auto">
               <h4 style="margin-bottom: 10px;">Alfabetizados</h4>
               <div class="row">
-                <div class="word styleword1" aria-label="ligação (8)">ligação</div>
-                <div class="word styleword2" aria-label="liga (4)">liga</div>
+                <div class="word styleword1">ligação</div>
+                <div class="word styleword2" >liga</div>
               </div>
               <div class="row">
-                <div class="word styleword2" aria-label="ligar (3)">ligar</div>
-                <div class="word styleword3" aria-label="ligue (1)">ligue</div>
-                <div class="word styleword4" aria-label="chamada (1)">chamada</div>
+                <div class="word styleword2" >ligar</div>
+                <div class="word styleword3" >ligue</div>
+                <div class="word styleword4" >chamada</div>
               </div>
+
+              <button class="btn btn-qtd" data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1">
+                Ver quantidades
+              </button>
+              <div class="collapse" id="collapse1">
+                <div class="card card-body border-0 ">
+                  ligação (5), ligar (4), falar (2), ligue (2), telefonema (1), conversar (1), chamada (1), telefone (1), telefonar (1), liga (1)
+                </div>
+              </div>
+
+              
     
             </div>
+            <!-- <p>
+              <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                Link com href
+              </a>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                Botão com data-target
+              </button>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+              </div>
+            </div> -->
+
 
           </div>
           <div class="col-md-12 col-sm-12 col-lg-6 col-xl-6">
@@ -391,9 +404,10 @@
                 <div class="word styleword2" aria-label="manda mensagem (3)">manda mensagem</div>
               </div>
               <div class="row">
+                <div class="word styleword4" aria-label="mensagem (1)">mensagem</div>
                 <div class="word styleword2" aria-label="mande uma mensagem (3)">mande uma mensagem</div>
                 <div class="word styleword3" aria-label="enviar mensagem (1)">enviar mensagem</div>
-                <div class="word styleword4" aria-label="mensagem (1)">mensagem</div>
+                
                 
               </div>
               <div class="row">
@@ -514,7 +528,15 @@
   </div>
 
   
-  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+<!-- Optional theme -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+<!-- Latest compiled and minified JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
   <!-- JS, Popper.js, and jQuery -->
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
