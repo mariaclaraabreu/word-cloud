@@ -14,14 +14,12 @@ h1 {
   /* color: beige; */
 }
 
-h3 {
-  color: beige;
-  background-color: #4682B4;
-  padding: 10px;
-}
 
 .tituloTarefas {
   /* width: 300px; */
+  color: #4682B4;
+  background-color: #F8F8FF;
+  padding: 10px;
   
   margin-bottom: 20px;
   max-width: 70%;
@@ -29,9 +27,12 @@ h3 {
 }
 
 .cloud-item {
+  overflow: visible;
+
 
   padding: 10px;
-  max-width: 70%;
+  /* max-width: 70%; */
+  margin-bottom: 20px;
 
   -webkit-box-shadow: 3px 0px 10px -1px rgba(211,211,211,1);
   -moz-box-shadow: 3px 0px 10px -1px rgba(211,211,211,1);
@@ -44,11 +45,19 @@ header {
   background-image: url('fundoheader.jpg');
   background-repeat: no-repeat;
   background-size:100%;
-  color: #4682B4;
   text-align: center;
  
   padding-top: 30px;
   padding-bottom: 30px;
+}
+header h1 {
+  color: #4682B4;
+  
+
+}
+header span {
+
+
 }
 .container {
   /* background-color: beige;
@@ -63,7 +72,7 @@ header {
   margin-top: 30px;
 
 }
-.row {
+.cloud-item .row {
   display: flex;
   justify-content: center;
 }
